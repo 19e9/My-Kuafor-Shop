@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_kuafor_shop/pages/home.dart';
 import 'package:my_kuafor_shop/pages/onboarding.dart';
 
 void main() {
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Onboarding()
+      home: Home()
     );
   }
 }
