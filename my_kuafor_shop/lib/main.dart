@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_kuafor_shop/pages/booking.dart';
 import 'package:my_kuafor_shop/pages/home.dart';
 import 'package:my_kuafor_shop/pages/onboarding.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'My Kuaför',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         // This is the theme of your application.
